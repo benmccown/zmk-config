@@ -95,9 +95,9 @@
         sym_layer {
             bindings = <
         //│ 1             │ 2            │ 3            │ 4            │ 5          │ --- │ 6        │ 7       │ 8       │ 9       │ 10      │
-           &kp LC(NUM_1)  &kp LC(NUM_2)  &kp LC(NUM_3)  &kp LC(NUM_4)  &kp LC(NUM_5)       &kp CARET  &kp AMPS  &kp LPAR  &kp RPAR  &kp TILDE
-           &kp LCTRL      &kp LGUI       &kp LALT       &kp LSHFT      &kp LC(NUM_6)       &kp AT     &kp EXCL  &kp LBKT  &kp RBKT  &kp SQT
-           &sys_reset     &trans         &kp LC(LEFT)   &kp LC(RIGHT)  &trans              &kp PIPE   &kp HASH  &kp LBRC  &kp RBRC  &kp GRAVE
+           &kp LC(NUM_1)   &kp LC(NUM_2)  &kp LC(NUM_3)  &kp LC(NUM_4)  &kp LC(NUM_5)       &kp CARET  &kp AMPS  &kp LPAR  &kp RPAR  &kp TILDE
+           &kp LCTRL       &kp LGUI       &kp LALT       &kp LSHFT      &kp LC(NUM_6)       &kp AT     &kp EXCL  &kp LBKT  &kp RBKT  &kp SQT
+           &bootloader     &trans         &kp LC(LEFT)   &kp LC(RIGHT)  &trans              &kp PIPE   &kp HASH  &kp LBRC  &kp RBRC  &kp GRAVE
                                                         &trans         &trans              &kp DLLR   &kp PRCT
             >;
         };
@@ -107,7 +107,7 @@
         //│ 1     │ 2             │ 3             │ 4              │ 5            │ --- │ 6           │ 7           │ 8           │ 9             │ 10       │
            &trans  &trans          &mmv MOVE_UP    &mkp MCLK        &msc SCRL_UP         &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 2    &bt BT_CLR      
            &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN       &trans        &kp LSHFT     &kp LALT      &kp LGUI        &kp LCTRL
-           &trans  &trans          &trans          &trans           &trans               &trans        &kp C_VOL_DN  &kp C_VOL_UP  &bt BT_CLR_ALL  &sys_reset
+           &trans  &trans          &trans          &trans           &trans               &trans        &kp C_VOL_DN  &kp C_VOL_UP  &bt BT_CLR_ALL  &bootloader
                                                    &mkp RCLK        &mkp LCLK            &trans        &trans
             >;
         };
